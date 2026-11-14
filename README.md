@@ -35,9 +35,13 @@ El archivo raíz `plugin.json` empaqueta el skill bajo la estructura portable de
 
 El plugin solo distribuye instrucciones y referencias: no instala Forms Builder, lectores binarios, MCP, conectores ni servicios de runtime. Estos comandos son instrucciones de prueba; no se ha validado aquí la carga con una instalación de Claude Code.
 
+## Licencia
+
+El contenido original de este repositorio se distribuye bajo la licencia MIT; consulta [LICENSE](LICENSE). Las fuentes, marcas y materiales de terceros conservan sus propios términos y no se relicencian con este archivo.
+
 ## Uso responsable
 
-El usuario proporciona sus propios artefactos, permisos y conexiones. No incluyas credenciales en prompts, código cliente o repositorios. Mantén fuentes, datos y evidencia del cliente en ubicaciones autorizadas; publica únicamente material genérico revisado. Revisa licencia y atribución de las fuentes enlazadas antes de reutilizar material sustancial.
+El usuario proporciona sus propios artefactos, permisos y conexiones. No incluyas credenciales en prompts, código cliente o repositorios. Mantén fuentes, datos y evidencia del cliente en ubicaciones autorizadas; publica únicamente material genérico revisado. Verifica los términos de cualquier fuente externa antes de reutilizarla.
 
 ## Desarrollo APEX con Workflow
 
@@ -62,4 +66,3 @@ python -m unittest discover -s tests -p "test_*.py" -v
 
 GitHub Actions ejecuta el corpus y la validación de enlaces/manifiestos con Python 3.9 y 3.11. Esas pruebas **no** ejecutan modelos, validan permisos Oracle ni comprueban runtime. Una skill instalada no acredita que se haya activado correctamente en Codex, Claude Code u otro cliente.
 
-**Licencia:** el archivo raíz [`LICENSE`](LICENSE) declara MIT para el contenido original. La licencia no cubre automáticamente materiales de terceros, que conservan sus propios términos. Mantén respuestas de modelos, artefactos Forms, capturas y datos reales **fuera de este repositorio público**.
