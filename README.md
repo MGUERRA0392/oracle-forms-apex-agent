@@ -41,7 +41,7 @@ El usuario proporciona sus propios artefactos, permisos y conexiones. No incluya
 
 ## Desarrollo APEX con Workflow
 
-La guía principal incluye criterios de formularios locales y remotos, reportes por estado, navegación, templates/atributos, modal de Workflow y validación por capas. Usa ejemplos propios del proyecto destino y confirma su versión y contrato antes de aplicar el patrón.
+La guía principal incluye criterios de formularios locales y remotos, reportes por estado, navegación, templates/atributos, modal de Workflow y validación por capas. Usa ejemplos propios del proyecto destino y confirma su versión y contrato antes de aplicar el patrón. Consulta el [patrón portable de formulario y Workflow por API](conocimientos/patron-formulario-workflow-api.md) y la [evaluación guiada](evals/evaluacion-guiada-2026-11-07.md) para distinguir especificación documental de ejecución real.
 
 ## Herramienta opcional y revisión
 
