@@ -49,7 +49,7 @@ Maintain a verification record with target versions, artifacts, test data scope,
 
 Promote only reviewed, portable patterns. Keep project evidence, identifiers, schema details, connection settings, and customer data in the authorized project repository. Review public references for license and version before reusing their code or instructions.
 
-When reusing patterns across projects, remove project names, schemas, internal APIs, connections, paths, and business information. Check permissions, licenses, and source versions before reuse.
+Al reutilizar patrones entre proyectos, elimina nombres, esquemas, APIs internos, conexiones, rutas e información de negocio. Comprueba permisos, licencia y versión de las fuentes antes de reutilizar material.
 
 ## Comparación crítica de las referencias de extracción
 

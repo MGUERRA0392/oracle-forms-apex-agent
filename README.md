@@ -41,7 +41,7 @@ El contenido original de este repositorio se distribuye bajo la licencia MIT; co
 
 ## Uso responsable
 
-El usuario proporciona sus propios artefactos, permisos y conexiones. No incluyas credenciales en prompts, código cliente o repositorios. Mantén fuentes, datos y evidencia del cliente en ubicaciones autorizadas; publica únicamente material genérico revisado. Verifica los términos de cualquier fuente externa antes de reutilizarla.
+El usuario proporciona artefactos, permisos y conexiones que está autorizado a usar. No incluyas credenciales, tokens, rutas internas, identificadores personales ni evidencia del cliente en la guía pública. Para pruebas usa fixtures sintéticos aprobados; nunca reutilices datos personales para satisfacer una validación. Sigue las condiciones de licencia y atribución de las fuentes reutilizadas.
 
 ## Desarrollo APEX con Workflow
 

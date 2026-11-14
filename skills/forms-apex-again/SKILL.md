@@ -24,7 +24,7 @@ Agente portable de conocimiento para análisis/migración de Oracle Forms y Repo
 4. Prefiere componentes declarativos de APEX y Universal Theme de la versión real. Contrasta Properties, Attributes, slots y template options en Page Designer.
 5. Relaciona cada regla de origen con página/región/item/proceso/servicio APEX y una prueba de aceptación.
 6. Valida fuente, interacción, seguridad, casos vacío/error/éxito y responsive. Declara exactamente qué se comprobó.
-7. Publica solo patrones genéricos revisados. Nunca copies proyectos, rutas, nombres, IDs, datos o secretos locales a una edición pública.
+7. Al preparar material reutilizable, elimina nombres, rutas, IDs, esquemas, datos y secretos que identifiquen un proyecto; conserva patrones con evidencia y permisos adecuados.
 
 ## APEXREST opcional
 
@@ -69,3 +69,10 @@ Distingue una forma local de una forma remota: conserva Fetch/Process Row y acci
 Este paquete solo distribuye instrucciones y referencias. **No incorpora ni ejecuta** herramientas de extracción FMB/FMX/RDF/REP, CLI Python, MCP, APEXREST, SQLcl o conexiones a Oracle; cualquier integración es opcional, externa, autorizada y debe comprobarse en el cliente actual. Para delimitar el alcance utiliza la [matriz de capacidades y compatibilidad](../../docs/COMPATIBILIDAD-Y-LIMITES.md).
 
 La suite de [14 escenarios sintéticos](../../evals/cases.json) se documenta en [evaluaciones](../../evals/README.md). Sus controles automatizados solo comprueban estructura, no la eficacia del modelo ni la existencia de llamadas reales. Antes de afirmar compatibilidad entre clientes, ejecutar la misma suite con cada modelo/versión, respuestas saneadas y revisión humana independiente. Ningún resultado reportado sustituye autorización de servidor, cobertura del artefacto original o aceptación de runtime APEX.
+
+## Estado de validación y publicación
+
+- Indica el commit y si la guía está en un PR, en la rama principal o instalada en el cliente; un PR abierto no equivale a una versión publicada ni a un cambio desplegado.
+- Distingue exportación/metadata de Page Designer del comportamiento Runtime. Una acción en el slot `Next` aún requiere verificar render, condición, clic y destino en el tema instalado.
+- Un recorrido E2E previo valida solo ese recorrido; no certifica una reconstrucción limpia desde requisitos ni todos los estados, retornos, permisos y tamaños de pantalla.
+- Una licencia aceptada, componentes detectados por APEXREST `doctor` o una ruta SQLcl visible no prueban ejecución en el canal del complemento ni conexión real a la base. Comprueba ejecutable, configuración del proyecto, identidad del destino y read-back antes de autoría o importación.
