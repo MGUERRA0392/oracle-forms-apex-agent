@@ -49,6 +49,8 @@ Maintain a verification record with target versions, artifacts, test data scope,
 
 Promote only reviewed, portable patterns. Keep project evidence, identifiers, schema details, connection settings, and customer data in the authorized project repository. Review public references for license and version before reusing their code or instructions.
 
+When reusing patterns across projects, remove project names, schemas, internal APIs, connections, paths, and business information. Check permissions, licenses, and source versions before reuse.
+
 ## Comparación crítica de las referencias de extracción
 
 Estas referencias amplían el repertorio de análisis. Son rutas complementarias con distintas capacidades; el agente escoge las que existan y aporten valor al artefacto y a la pregunta concreta. La falta de una herramienta o formato no bloquea el análisis: se continúa con las fuentes disponibles y se explicita qué detalle pudo comprobarse y qué queda incierto.
